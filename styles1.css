@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+body {
+  background-image: url("Diary.jpg");
+  background-size: 120%;
+  background-position: 120% 85%;
+  background-color: #cccccc;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.blog_post {
+  position: relative;
+  padding: 6rem 3rem 6rem 6rem;
+  background: #fff;
+  max-width: 800px;
+  max-height: none;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+  margin: 0 0 0.5rem 0;
+  color: #999;
+  font-size: 1.25rem;
+}
+
+h1 {
+  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+
+p {
+  margin: 0 0 4.5rem 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.btn_primary {
+  border: none;
+  outline: none;
+  background: linear-gradient(90deg, #2c2c2c, #3c3837);
+  padding: 1.5rem 2rem;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 1px 10px 2rem rgba(46, 46, 46, 0.5);
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+}
+
+.btn_primary:hover {
+  box-shadow: 0px 5px 1rem rgba(46, 46, 46, 0.5);
+}
+
+a {
+  color: #fff;
+}
+a:hover {
+  color: rgb(255, 0, 0);
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.email {
+  color: blue;
+}
+
+input {
+  font-size: 1.5rem;
+}
+
+#statusBar {
+  left: 20px;
+}
+
+.confirm-result {
+  font-size: 1.5rem;
+}
+
+li{
+ font-size: large;
+}
+
+.listLink{
+ color: blue;
+}

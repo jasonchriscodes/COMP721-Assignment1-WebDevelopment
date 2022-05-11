@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Status Form</title>
+    <link rel="stylesheet" href="styles1.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script type="text/javascript" src="http://tgh7346.cmslamp14.aut.ac.nz/assign1/scripts.js">
+    </script>
+  </head>
+
+  <body onload="renderTime()">
+    <div class="content">
+      <div class="wrapper">
+        <div class="blog_post">
+          <div class="container_copy">
+            <h3 id="clockDisplay"></h3>
+            <h1>Status Posting System</h1>
+                <p>
+                  <form action="searchstatusprocess.php" method="get">
+                    <label> Status:
+                    <input class="w3-input w3-border w3-light-grey" type="text" name="Search" required oninvalid="this.setCustomValidity('The search field cannot be empty. Please enter a keyword to search.')" oninput="setCustomValidity('')">
+                    </label>
+                    <br><br>
+                    <input class="btn_primary" class="button" type="submit" name="submit" value="Show Results" />
+                    <br><br><br><br>
+                    <div class="btn_primary">
+                    <a href="http://tgh7346.cmslamp14.aut.ac.nz/assign1/index.html">Return to Home Page</a>
+                    </div>
+                  </form>
+                </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
